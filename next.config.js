@@ -1,6 +1,10 @@
-const { withNextVideo } = require('next-video/process')
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = withNextVideo(nextConfig)
+// @ts-check
+ 
+/**
+ * @type {import('next').NextConfig}
+ **/
+const nextConfig = {
+  /* config options here */
+}
+ 
+module.exports = nextConfig

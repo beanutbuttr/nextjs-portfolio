@@ -4,19 +4,13 @@ import LandingPage from './landing'
 import { scadaBody, scadaTitle } from './fonts'
 import Image from 'next/image'
 
-const HomePage = styled.body`
-  margin: 215px 135px;
-  background: #161619;
-  color: white;
-  // display: flex;
-`
 
 export default function Home() {
   return (
-    <HomePage>
+    <body>
       <LandingPage />
       
-    </HomePage>
+    </body>
   )
 }
 
