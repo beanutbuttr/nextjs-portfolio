@@ -569,8 +569,17 @@ video {
 .flex {
   display: flex;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.border {
+  border-width: 1px;
+}
 .italic {
   font-style: italic;
+}
+.underline {
+  text-decoration-line: underline;
 }
 
 :root {
