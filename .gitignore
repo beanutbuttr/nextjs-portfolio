@@ -34,3 +34,5 @@ node_modules/.bin/autoprefixer
 node_modules/.bin/acorn
 
 node_modules/@next/swc-darwin-arm64
+.next/cache/webpack/client-development/12.pack.gz
+.next/cache/webpack/client-development/1.pack.gz

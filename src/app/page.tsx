@@ -3,14 +3,13 @@ import styled from 'styled-components'
 import { scadaBody, scadaTitle } from './fonts'
 import Image from 'next/image'
 import LandingPage from './landing'
-import Projects from './projects'
 
 
 export default function Home() {
   return (
     <body>
       <LandingPage />
-      <Projects/>
+      {/* <Projects/> */}
     </body>
   )
 }

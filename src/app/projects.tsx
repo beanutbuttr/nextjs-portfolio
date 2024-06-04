@@ -1,8 +1,9 @@
-'use client'
+// 'use client'
 import styled from 'styled-components'
 import { scadaBody, scadaTitle } from './fonts'
 import Image from 'next/image'
 import Popup from 'reactjs-popup'; 
+import Link from 'next/link'
 
 const ProjectsPage = styled.div`
   width: auto;
@@ -10,12 +11,13 @@ const ProjectsPage = styled.div`
 
 const SectionHeader = styled.div`
   font-family: ${scadaTitle.style};
-  font-size: 30px;
+  font-size: 25px;
 `
 
 const ProjectsGrid = styled.div`
   display: flex;
-  // justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-evenly;
   gap: 40px;
   flex-wrap: wrap;
   margin: 20px 0;
@@ -35,7 +37,7 @@ const ProjectText = styled.div`
   // border-radius: 0 0 15px 15px;
   // border: 2px solid black;
   border-bottom: 1px solid grey;
-  padding: 5px 10px;
+  padding: 5px 0px;
   // color: #161619;
   color: #6DAB5D
 `
@@ -153,14 +155,63 @@ const FilmProject = (props:
                     {props.description}
                     </div>
                   <div>{props.year + ". " + props.medium}</div>
-                  <a href={"mailto:beatricehhoang@gmail.com?subject=Requesting Access To"+props.title}>Request Access</a>
+                  <a href={"mailto:beatricehhoang@gmail.com?subject=Requesting Access To "+props.title}>Request Access</a>
                 </StyledPopupDescription>
                 
 
             </StyledPopup>
             {/* <div>{props.description}</div> */}
             <br/>
-            <a href={"mailto:beatricehhoang@gmail.com?subject=Requesting Access To"+props.title}>Request Access</a>
+            <a href={"mailto:beatricehhoang@gmail.com?subject=Requesting Access To "+props.title}>Request Access</a>
+          </ProjectDescription>
+        </ProjectText>
+        
+      </StyledProject>
+    )
+  
+}
+
+const CodeProject = (props:
+  { title: string, year: string, source: string, medium: string, linkto: string }
+) => {
+    return(
+      <StyledProject>
+
+          <StyledImage
+              src={props.source}
+              alt={"still for " + props.title}
+          />
+
+        <ProjectText>
+          <ProjectTitle>
+            {props.title + " (" + props.year + ")"}
+          </ProjectTitle>
+          <ProjectDescription>
+            <StyledPopup
+              trigger={<button>More Info</button>}
+              // position="right center"
+              modal
+              closeOnDocumentClick
+              >
+                <Image
+                width={320}
+                height={180}
+                src={props.source}
+                alt={"still from " + props.title}
+                />
+                <StyledPopupDescription>
+                  <div>
+                    <h1>{props.title}</h1>
+                    </div>
+                  <div>{props.year + ". " + props.medium}</div>
+                  <a href={"mailto:beatricehhoang@gmail.com?subject=Requesting Access To "+props.title}>Request Access</a>
+                </StyledPopupDescription>
+                
+
+            </StyledPopup>
+            {/* <div>{props.description}</div> */}
+            <br/>
+            <a href={"mailto:beatricehhoang@gmail.com?subject=Requesting Access To "+props.title}>Request Access</a>
           </ProjectDescription>
         </ProjectText>
         
@@ -172,6 +223,12 @@ const FilmProject = (props:
 export default function Projects() {
   return (
     <ProjectsPage>
+      <SectionHeader>Code Works</SectionHeader>
+      <Link href={"/Maxpreps"}>amxrpes</Link>
+      <ProjectsGrid>
+
+      </ProjectsGrid>
+
       <SectionHeader>Films</SectionHeader>
       <ProjectsGrid>
         <FilmProject
@@ -196,7 +253,7 @@ export default function Projects() {
           />
 
         <FilmProject
-          title='There was plenty of time'
+          title='Plenty of time'
           year='2023'
           description='I read my thoughts from paper as I pace around a chair and my audio recorder,
           and I make a careless attempt at playing the piano.
@@ -225,6 +282,7 @@ export default function Projects() {
 
 
       </ProjectsGrid>
+
     </ProjectsPage>
     
   )
