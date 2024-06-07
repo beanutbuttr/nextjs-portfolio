@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import { scadaBody, scadaTitle } from './fonts'
+import { scadaBody, scadaTitle, mulishBody, mulishTitle } from './fonts'
 import Link from 'next/link'
 
 const Beatrice = styled.div`
   font-size: 24px;
-  font-family: ${scadaBody.style};
+  font-family: ${mulishTitle.style};
   text-align: center;
   margin: auto;
 `
@@ -24,6 +24,7 @@ const ProjectsPage = styled.div`
 
 const BarDiv = styled.div`
   // width: 100%;
+  font-family: ${mulishBody.style}
   justify-content: center;
   display: flex;
   gap: 72px;
@@ -49,7 +50,7 @@ function Bar() {
     <BarDiv>
       <BarLink title='Film' page='/film'/>
       <BarLink title='Code' page='/code'/>
-      <BarLink title='Art' page='/art'/>
+      {/* <BarLink title='Art' page='/art'/> */}
       <BarLink title='About' page='/about'/>
     </BarDiv>
   )

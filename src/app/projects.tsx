@@ -274,8 +274,7 @@ export default function Projects() {
         <FilmProject
           title='Growing Up'
           year='2022'
-          description='"Growing Up" is a found footage film about my childhood experience, using 23 
-          various films to capture loose events of my childhood and explore my growth.'
+          description='"Growing Up" is a found footage film about growing up.'
           medium='Digital Video. 4 min.'
           source='/film-stills/growingup-still.jpg'
           />

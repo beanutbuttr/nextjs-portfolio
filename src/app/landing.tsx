@@ -84,8 +84,8 @@ export default function LandingPage() {
         and an experimental filmmaker.
         <ParagraphSpace/>
         I'm in my last year at Brown University studying Computer Science and Modern Culture &
-        Media. My senior thesis film is in-progress, and you can bet it involves compact cameras,
-        multiple screens, coding, and a lot of experimenting.
+        Media. My senior thesis film, working title <i>My Sight is Lined with Visions</i>, is currently in-progress.
+        You can bet it involves compact cameras, code, and some experimenting.
         <ParagraphSpace/><ParagraphSpace/>
         {/* <Arrow>&darr;</Arrow> */}
         
@@ -99,12 +99,12 @@ export default function LandingPage() {
             <Link href='./'>Code</Link>
           </PageName>
 
-          <PageName>
+          {/* <PageName>
             <Link href='./'>Art</Link>
-          </PageName>
+          </PageName> */}
 
           <PageName>
-            <Link href='./'>About</Link>
+            <Link href='/about'>About</Link>
           </PageName>
 
         </PagesBar>

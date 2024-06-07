@@ -553,5 +553,6 @@ body {
   /* color: white; */
   background: white;
   color: #161619;
+  border-top: 4px solid black;
 }
 
