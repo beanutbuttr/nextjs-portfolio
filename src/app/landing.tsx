@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import styled from 'styled-components'
 import { scadaBody, scadaTitle } from './fonts'
 import Image from 'next/image';
@@ -11,6 +11,10 @@ const Landing = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 215px 135px 0px;
+
+  @media (max-width: 480px) {
+   margin: 40px;
+  }
 `
 
 const Name = styled.div`
@@ -64,11 +68,6 @@ const PageName = styled.div`
   }
 `
 
-const Arrow = styled.h1`
-  font-size: 30px;
-  font-weight: 700;
-`
-
 export default function LandingPage() {
   return (
     <Landing>
@@ -80,12 +79,12 @@ export default function LandingPage() {
         
       </Name>
       <Description>
-        is a software engineer / multimedia artist based in Boston, an intern at Microsoft
+        is a software engineer / multimedia artist based in Boston, currently an intern at Microsoft
         and an experimental filmmaker.
         <ParagraphSpace/>
-        I'm in my last year at Brown University studying Computer Science and Modern Culture &
-        Media. My senior thesis film, working title <i>My Sight is Lined with Visions</i>, is currently in-progress.
-        You can bet it involves compact cameras, code, and some experimenting.
+        Beatrice in her last year at Brown University studying Computer Science and Modern Culture &
+        Media. Her senior thesis film, working title <i>My Sight is Lined with Visions</i>,
+        is currently in-progress. Of course it involves compact cameras, code, and a lot of experimenting.
         <ParagraphSpace/><ParagraphSpace/>
         {/* <Arrow>&darr;</Arrow> */}
         
