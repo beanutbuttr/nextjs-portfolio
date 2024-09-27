@@ -11,7 +11,7 @@ export default function Code() {
   return (
 
     <ProjectLayout>
-
+      <Link href={'/code/VRPiano'}>helink</Link>
 
       <Contact/>
     </ProjectLayout>

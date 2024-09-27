@@ -70,6 +70,7 @@ export const StyledSubheader = styled.h1`
   font-family: ${mulishBody.style}
   text-align: center;
   font-size: 18px;
+  border-bottom: 2px solid white;
 `
 
 export const ProjectBar = (props:

@@ -1,25 +1,22 @@
 // 'use client'
 import styled from 'styled-components'
-import { scadaBody, scadaTitle } from './fonts'
+import { scadaBody, scadaTitle, scadaTitleItalic } from './fonts'
 import Image from 'next/image';
 import Link from 'next/link'
-import floatingHead from './assets/floating-head-one-rotation-white.gif'
+import floatingHeadWhite from './assets/floating-head-one-rotation-white.gif'
+import floatingHeadBlack from './assets/floating-head-one-rotation.gif'
 
 const Landing = styled.div`
   display: flex;
   // min-height: 80vh;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 215px 135px 0px;
 
-  @media (max-width: 480px) {
-   margin: 40px;
-  }
 `
 
 const Name = styled.div`
   font-size: 40px;
-  font-family: ${scadaTitle.style};
+  font-family: ${scadaTitleItalic.style};
   width: 400px;
   max-width: 100%;
   height: 400px;
@@ -31,6 +28,10 @@ const Description = styled.div`
   padding: 20px 0px;
   width: 600px;
   max-width: 100%;
+
+  a {
+    text-decoration: underline;
+  }
 `
 
 const ParagraphSpace = styled.div`
@@ -43,6 +44,10 @@ const ImageContainer = styled.div`
     height: 300px;
     margin: auto;
   }
+`
+
+const Arrow = styled.div`
+  font-size: 30px;
 `
 
 const PagesBar = styled.div`
@@ -61,9 +66,10 @@ const PageName = styled.div`
   justify-content: space-between;
 
   a {
-    color: #389012;
+    // color: #389012;
+    color: #7fde57;
     &:hover {
-      color: #0d2801;
+      color: #d2f2c4;
     }
   }
 `
@@ -74,22 +80,29 @@ export default function LandingPage() {
       <Name>
         Beatrice Hoang
         <ImageContainer>
-          <Image src={floatingHead} alt="Loading Beatrice 3D scan" />
+          <Image src={floatingHeadBlack} alt="Beatrice 3D scan" />
         </ImageContainer>
         
       </Name>
       <Description>
-        is a software engineer / multimedia artist based in Boston, currently an intern at Microsoft
-        and an experimental filmmaker.
-        <ParagraphSpace/>
-        Beatrice in her last year at Brown University studying Computer Science and Modern Culture &
-        Media. Her senior thesis film, working title <i>My Sight is Lined with Visions</i>,
-        is currently in-progress. Of course it involves compact cameras, code, and a lot of experimenting.
+        is 
+        <a href="https://64.media.tumblr.com/d3b17f7991ff224000ec15be8c2f3dd8/74297cf98aab5969-a3/s1280x1920/f9683182e5cb6ac21c71c8fcf391f09d91d00d0f.png" target="_blank"> looking for an angel
+        </a>
+        , watching <a href="https://lh4.googleusercontent.com/proxy/ieuB0CVpCzXl1ntvZyTAfgif3lmZni87lPVKLWJ3f8EpdQCSLd5S0YOSaDuIGvN2UlInaQnxkoqg6V_mouk-FEA7dkGvhPmjqX8MdYYpYmXF_6pB2U20gVkVamoHlNdaigiT">
+           Love & Pop
+        </a>, a DC AU devotee and 
+        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:aa0fbc29-d84d-4c0e-8f67-4a09655bb271"> 360p 90s/00s Asian video</a> lover.
+        {/* is a multimedia artist / software engineer based in Boston, an incoming software engineer at Microsoft
+        and an experimental filmmaker. */}
+        {/* <ParagraphSpace/>
+        Beatrice is finishing her studies at Brown University in Computer Science and Modern Culture &
+        Media. Her thesis film, <i>My Sight is Lined with Visions</i>,
+        is currently in-progress. Of course it involves compact cameras, surveillance aesthetics, code, and a lot of experimenting. */}
         <ParagraphSpace/><ParagraphSpace/>
-        {/* <Arrow>&darr;</Arrow> */}
+        <Arrow>&darr;</Arrow>
         
         
-        <PagesBar>
+        {/* <PagesBar>
           <PageName>
             <Link href='/film'>Film</Link>
           </PageName>
@@ -98,15 +111,12 @@ export default function LandingPage() {
             <Link href='./'>Code</Link>
           </PageName>
 
-          {/* <PageName>
-            <Link href='./'>Art</Link>
-          </PageName> */}
-
           <PageName>
             <Link href='/about'>About</Link>
           </PageName>
 
-        </PagesBar>
+        </PagesBar> */}
+
       </Description>
       
     </Landing>
