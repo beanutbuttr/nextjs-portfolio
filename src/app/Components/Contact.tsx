@@ -29,6 +29,7 @@ export default function Contact() {
       </StyledHeader>
       <StyledInfo>
         Beatrice Hoang <br/>
+        Letterboxd: <a href="https://letterboxd.com/beanutbuttr/">@beanutbuttr</a> <br/>
         Email: <a href= "mailto: beatricehhoang@gmail.com">beatricehhoang@gmail.com</a> <br/>
         To request access to works, send me an Email.
       </StyledInfo>
