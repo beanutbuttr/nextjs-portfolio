@@ -7,13 +7,7 @@ const scadaBody = Scada({
   subsets: ['latin']
 })
 
-const scadaTitle= Scada({
-  weight: '700',
-  style: ['normal'],
-  subsets: ['latin']
-})
-
-const scadaTitleItalic = Scada({
+const scadaTitle = Scada({
   weight: '700', // if single weight, otherwise you use array like [400, 500, 700],
   style: ['italic'], // if single style, otherwise you use array like ['normal', 'italic']
   subsets: ['latin']
@@ -30,4 +24,4 @@ const mulishBody = Mulish({
   style: ['normal'],
   subsets: ['latin']
 })
-export {scadaBody, scadaTitle, scadaTitleItalic, mulishBody, mulishTitle}
+export {scadaBody, scadaTitle, mulishBody, mulishTitle}

@@ -8,13 +8,11 @@ const StyledContainer = styled.div`
   
   // width: 500px;
   // margin: 10px;
-  // width: 500px;
+  width: 225px;
 
   img {
     width: 100%;
     min-height: 100%;
-    border-radius: 14px;
-
   }
 
   &: hover {
@@ -32,8 +30,6 @@ const StyledProjectBack = styled.div`
   border-radius: 14px;
   height: inherit;
   padding: 20px;
-  background-color: white;
-  color: black;
 
   h1 { // title
     font-size: 18px;
@@ -77,8 +73,8 @@ export default function FilmProject(props: {
 
   const styles = {
     card: {
-      width: '300px',
-      height: '450px',
+      width: '200px',
+      height: '300px',
       margin: '10px',
       "&:hover": {
       cursor: "pointer"
