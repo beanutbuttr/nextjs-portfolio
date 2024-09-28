@@ -86,7 +86,7 @@ export default function LandingPage() {
       </Name>
       <Description>
         is 
-        <a href="https://64.media.tumblr.com/d3b17f7991ff224000ec15be8c2f3dd8/74297cf98aab5969-a3/s1280x1920/f9683182e5cb6ac21c71c8fcf391f09d91d00d0f.png" target="_blank"> looking for an angel
+        <a href="https://64.media.tumblr.com/d3b17f7991ff224000ec15be8c2f3dd8/74297cf98aab5969-a3/s1280x1920/f9683182e5cb6ac21c71c8fcf391f09d91d00d0f.png"> looking for an angel
         </a>
         , watching <a href="https://lh4.googleusercontent.com/proxy/ieuB0CVpCzXl1ntvZyTAfgif3lmZni87lPVKLWJ3f8EpdQCSLd5S0YOSaDuIGvN2UlInaQnxkoqg6V_mouk-FEA7dkGvhPmjqX8MdYYpYmXF_6pB2U20gVkVamoHlNdaigiT">
            Love & Pop
