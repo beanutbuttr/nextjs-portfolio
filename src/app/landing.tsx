@@ -90,7 +90,7 @@ export default function LandingPage() {
         </a>
         , watching <a href="https://lh4.googleusercontent.com/proxy/ieuB0CVpCzXl1ntvZyTAfgif3lmZni87lPVKLWJ3f8EpdQCSLd5S0YOSaDuIGvN2UlInaQnxkoqg6V_mouk-FEA7dkGvhPmjqX8MdYYpYmXF_6pB2U20gVkVamoHlNdaigiT">
            Love & Pop
-        </a>, a DC AU devotee and 
+        </a>, a DC AU devotee and
         <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:aa0fbc29-d84d-4c0e-8f67-4a09655bb271"> 360p 90s/00s Asian video</a> lover.
         {/* is a multimedia artist / software engineer based in Boston, an incoming software engineer at Microsoft
         and an experimental filmmaker. */}

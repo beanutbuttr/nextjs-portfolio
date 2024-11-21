@@ -114,15 +114,23 @@ export default function FilmsSection() {
       <FilmProject
         im_path={'/film-stills/Honors/MSILWV-sidebar-poster.png'}
         title={'My Sight is Lined with Visions'}
-        description={'These letters will never be sent; still I hope you see this.'}
+        description={'These letters will never be sent; still I hope you see this. Senior thesis film coming in December'}
         date={'December 2024'}
         length={''}
         link={'https://www.youtube.com/embed/3A0HtUywWhI?si=2ndlxqW27cJUGDP4'} />
 
       <FilmProject
+        im_path={'/film-stills/Homo-movie/poster.png'}
+        title={'A Homo Movie'}
+        description={'An essay video on asian american film. Find contact at bottom to request password.'}
+        date={'October 2024'}
+        length={'11m'}
+        link={'https://player.vimeo.com/video/933989698?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
+
+      <FilmProject
         im_path={'/film-stills/Thunderstruck/thunderstruck-poster-pointed.png'}
         title={'Thunderstruck'}
-        description={'Flashing lights explode across an apartment as images of a woman in bed flicker in and out. A stop motion of light paintings and projections. Find contact at bottom to request access.'}
+        description={'Flashing lights explode across an apartment as images of a woman in bed flicker in and out. A stop motion of light paintings and projections. Find contact at bottom to request password.'}
         date={'September 2023'}
         length={'4m'}
         link={'https://player.vimeo.com/video/868960183?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
@@ -144,14 +152,6 @@ export default function FilmsSection() {
         link={'https://www.youtube.com/embed/KALgleyNE_o?si=nN4Msm08E_mjTpt4'} />
 
       <FilmProject
-        im_path={'/film-stills/Homo-movie/poster.png'}
-        title={'A Homo Movie'}
-        description={'An unfinished essay film on asian american film. Find contact at bottom to request access.'}
-        date={'November 2023'}
-        length={'7m'}
-        link={'https://player.vimeo.com/video/933989698?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
-
-      <FilmProject
         im_path={'/film-stills/TWPOT/twpot-poster.png'}
         title={'There Was Plenty of Time'}
         description={'I read my thoughts from paper as I pace around a chair and I make a careless attempt at playing the piano.'}
@@ -166,8 +166,6 @@ export default function FilmsSection() {
         date={'May 2022'}
         length={'4m'}
         link={'https://player.vimeo.com/video/717016230?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
-
-
 
     </div>
   )
