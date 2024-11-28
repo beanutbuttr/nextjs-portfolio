@@ -112,7 +112,7 @@ export default function FilmsSection() {
         link={'https://www.youtube.com/embed/WKa08b2IEus?si=kaOCYI9qsopxdLFA'} />
 
       <FilmProject
-        im_path={'/film-stills/Honors/MSILWV-sidebar-poster.png'}
+        im_path={'/film-stills/Honors/poster.png'}
         title={'My Sight is Lined with Visions'}
         description={'These letters will never be sent; still I hope you see this. Senior thesis film coming in December'}
         date={'December 2024'}
