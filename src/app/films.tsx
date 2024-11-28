@@ -103,13 +103,6 @@ export default function FilmsSection() {
   return (
     <div>
       <StyledFilmSectionTitle>Film/Video</StyledFilmSectionTitle>
-      <FilmProject
-        im_path={'/film-stills/Memories-of-our-betters/poster.png'}
-        title={'Memory of our betters'}
-        description={'For the past 8 years l’ve had a memory jar that I fill with little notes whenever a good thing happens. It kept me going. Now I don’t put things in it as often - now and then I add a club wristband, a movie ticket, a letter. When the good didn’t last I would find them and throw them away. 8 years in 1 jar is a lot. Thought I’d scan them and turn it into something.'}
-        date={'September 2024'}
-        length={'2m'}
-        link={'https://www.youtube.com/embed/WKa08b2IEus?si=kaOCYI9qsopxdLFA'} />
 
       <FilmProject
         im_path={'/film-stills/Honors/poster.png'}
@@ -118,6 +111,15 @@ export default function FilmsSection() {
         date={'December 2024'}
         length={''}
         link={'https://www.youtube.com/embed/3A0HtUywWhI?si=2ndlxqW27cJUGDP4'} />
+
+      <FilmProject
+        im_path={'/film-stills/Memories-of-our-betters/poster.png'}
+        title={'Memory of our betters'}
+        description={'For the past 8 years l’ve had a memory jar that I fill with little notes whenever a good thing happens. It kept me going. Now I don’t put things in it as often - now and then I add a club wristband, a movie ticket, a letter. When the good didn’t last I would find them and throw them away. 8 years in 1 jar is a lot. Thought I’d scan them and turn it into something.'}
+        date={'September 2024'}
+        length={'2m'}
+        link={'https://www.youtube.com/embed/WKa08b2IEus?si=kaOCYI9qsopxdLFA'} />
+
 
       <FilmProject
         im_path={'/film-stills/Homo-movie/poster.png'}
