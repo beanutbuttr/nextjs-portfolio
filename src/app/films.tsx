@@ -113,20 +113,20 @@ export default function FilmsSection() {
         link={'https://player.vimeo.com/video/1039145598?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
 
       <FilmProject
-        im_path={'/film-stills/Memories-of-our-betters/poster.png'}
-        title={'Memory of our betters'}
-        description={'For the past 8 years I\'ve had a memory jar that I fill with little notes whenever a good thing happens. It kept me going. Now I don’t put things in it as often - now and then I add a club wristband, a movie ticket, a letter. When the good didn’t last I would find them and throw them away. 8 years in 1 jar is a lot. Thought I’d scan them and turn it into something.'}
-        date={'September 2024'}
-        length={'2m'}
-        link={'https://www.youtube.com/embed/WKa08b2IEus?si=kaOCYI9qsopxdLFA'} />
-
-      <FilmProject
         im_path={'/film-stills/Homo-movie/poster.png'}
         title={'A Homo Movie'}
         description={'An essay video on asian american film. Find contact at bottom to request password.'}
         date={'October 2024'}
         length={'11m'}
         link={'https://player.vimeo.com/video/933989698?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
+
+      <FilmProject
+        im_path={'/film-stills/Memories-of-our-betters/poster.png'}
+        title={'Memory of our betters'}
+        description={'For the past 8 years I\'ve had a memory jar that I fill with little notes whenever a good thing happens. It kept me going. Now I don’t put things in it as often - now and then I add a club wristband, a movie ticket, a letter. When the good didn’t last I would find them and throw them away. 8 years in 1 jar is a lot. Thought I’d scan them and turn it into something.'}
+        date={'September 2024'}
+        length={'2m'}
+        link={'https://www.youtube.com/embed/WKa08b2IEus?si=kaOCYI9qsopxdLFA'} />
 
       <FilmProject
         im_path={'/film-stills/Thunderstruck/thunderstruck-poster-pointed.png'}
