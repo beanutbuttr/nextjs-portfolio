@@ -110,7 +110,7 @@ export default function FilmsSection() {
         description={'A girl with bipolar disorder tries to follow a to-do list. She never completes it. Instead, she recounts dreams, memories, writes letters, and plays with her cats. Find contact at bottom to request password.'}
         date={'December 2024'}
         length={'32m'}
-        link={'https://vimeo.com/1039145598'} />
+        link={'https://player.vimeo.com/video/1039145598?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
 
       <FilmProject
         im_path={'/film-stills/Memories-of-our-betters/poster.png'}
@@ -119,7 +119,6 @@ export default function FilmsSection() {
         date={'September 2024'}
         length={'2m'}
         link={'https://www.youtube.com/embed/WKa08b2IEus?si=kaOCYI9qsopxdLFA'} />
-
 
       <FilmProject
         im_path={'/film-stills/Homo-movie/poster.png'}
