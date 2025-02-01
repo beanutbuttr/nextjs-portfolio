@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const StyledFilmProject = styled.div`
   display: flex;
-  gap: 40px;
+  // gap: 40px;
   border-top: 2px solid grey;
   padding: 25px 0 60px;
   div {
@@ -15,12 +15,13 @@ const StyledFilmProject = styled.div`
    justify-content: center;
   }
   flex-wrap: wrap;
-  // justify-content: space-between;
+  justify-content: space-between;
 
 `
 
 const StyledFilmProjectTextBox = styled.div`
-  width: 500px;
+  width: 40%;
+  min-width: 200px;
   margin: 0 0 10px;
   @media (max-width: 480px) {
     width: 100%;
@@ -41,25 +42,29 @@ const StyledFilmProjectTitle = styled.div`
 `
 
 const StyledIframe = styled.div`
-  // width: 200px;
-  // max-width: 200px;
+  width: 30%;
+  min-width: 200px;
   iframe {
-    width: 360px;
+    // width: 360px;
+    width: 100%;
   }
 
   @media (max-width: 480px) {
     iframe {
      width: 100%;
+     min-width: 200px;
     }
   }
 `
 
 const StyledPoster = styled.div`
-  width: 200px;
+  width: 15%;
+  min-width: 200px;
   margin: 0 0 20px;
   img {
-    width: 200px;
-    height: 300px;
+    width: 100%;
+    min-width: 200px;
+    // height: 100%;
     border-radius: 8px;
   }
 `
@@ -84,7 +89,7 @@ function FilmProject(props: {
         <StyledFilmProjectDescription>{props.description}</StyledFilmProjectDescription>
       </StyledFilmProjectTextBox>
       <StyledIframe>
-        <iframe width="400" height="300" src={props.link} title="Memory of our betters — 2024 Short Film" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" />
+        <iframe width="400" height="300" src={props.link} title="Memory of our betters — 2024 Short Film" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" />
       </StyledIframe>
       
       
@@ -107,15 +112,37 @@ export default function FilmsSection() {
       <FilmProject
         im_path={'/film-stills/Honors/poster.png'}
         title={'My Sight is Lined with Visions'}
-        description={'A girl with bipolar disorder tries to follow a to-do list. She never completes it. Instead, she recounts dreams, memories, writes letters, and plays with her cats. Find contact at bottom to request password.'}
+        description={"A girl attempts to complete a to-do list. She never does. Instead, she " + 
+          "reflects on memories of her first love, recounts dreams, writes letters, and spends " + 
+          "time with her cats. After the first 13 days go by in a depressive episode, a hypomanic " + 
+          "episode takes over the 14th day and it all spins out of control. " + 
+
+          "\"My Sight is Lined with Visions\" is a tale about first loves, the joys of living with " +
+          "cats, a perspective on living with bipolar disorder, and the dreams that haunt you. " +
+          "Through a number of camera angles, the blur of autobiography and fiction creates a " + 
+          "fragmented yet intimate portrait of a girl’s mental landscape. Voiceovers in English " + 
+          "and broken Vietnamese attempt to capture the fluidity of memory, emotion, and imagination. " + 
+          "I write about my first love. I hope she writes back." + 
+          "Find contact at bottom to request password."}
         date={'December 2024'}
-        length={'32m'}
-        link={'https://player.vimeo.com/video/1039145598?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
+        length={'30m'}
+        link={'https://player.vimeo.com/video/1047054886?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
 
       <FilmProject
         im_path={'/film-stills/Homo-movie/poster.png'}
         title={'A Homo Movie'}
-        description={'An essay video on asian american film. Find contact at bottom to request password.'}
+        description={"I started this essay film in November 2023. I was reading Countervisions, a book of " + 
+          "essays on Asian American film and video, which left me with the desire to show the side of Asian " +
+          "American film/video that has evaded the mainstream public eye. I felt the need to explain or justify " +
+          "this exploration in some way, so I took the approach of a video essay. Through candid voiceovers and " +
+          "kitschy overlays, I tell a story. One that I realized I was not able to tell, which is why I stopped " +
+          "making it the following month. I realized that the story I was trying to tell -- that I was trying to " +
+          "tell something at all about a group larger than me -- was against my guiding values. I though I was " +
+          "trying to speak for the larger Asian American community, and though I believe in voicing my thoughts, " +
+          "I hate telling other people how to interpret my media." + "\n" + 
+          "A year later, I think I'm getting over the impossibility in my mind of making something truly \"Asian American.\" " + 
+          "In truth, what I am making and what I am speaking about is not Asian America. No, Asian America " + 
+          "implies a belief in something else. This is a homo movie." + "\n" + "Find contact at bottom to request password."}
         date={'October 2024'}
         length={'11m'}
         link={'https://player.vimeo.com/video/933989698?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
