@@ -135,9 +135,9 @@ export default function FilmsSection() {
           "essays on Asian American film and video, which left me with the desire to show the side of Asian " +
           "American film/video that has evaded the mainstream public eye. I felt the need to explain or justify " +
           "this exploration in some way, so I took the approach of a video essay. Through candid voiceovers and " +
-          "kitschy overlays, I tell a story. One that I realized I was not able to tell, which is why I stopped " +
+          "kitschy overlays, I tell a story. One that I realized I was not able to tell, which was why I stopped " +
           "making it the following month. I realized that the story I was trying to tell -- that I was trying to " +
-          "tell something at all about a group larger than me -- was against my guiding values. I though I was " +
+          "tell something at all about a group larger than me -- was against my guiding values. I thought I was " +
           "trying to speak for the larger Asian American community, and though I believe in voicing my thoughts, " +
           "I hate telling other people how to interpret my media." + "\n" + 
           "A year later, I think I'm getting over the impossibility in my mind of making something truly \"Asian American.\" " + 
