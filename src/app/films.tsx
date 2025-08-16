@@ -120,7 +120,7 @@ export default function FilmsSection() {
           "\"My Sight is Lined with Visions\" is a tale about first loves, the joys of living with " +
           "cats, a perspective on living with bipolar disorder, and dreams. " +
           "I write about my first love. I hope she writes back. " + "\n" + 
-          "Find contact at bottom to request password."}}
+          "Find contact at bottom to request password."}
         date={'December 2024'}
         length={'30m'}
         link={'https://player.vimeo.com/video/1047054886?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
