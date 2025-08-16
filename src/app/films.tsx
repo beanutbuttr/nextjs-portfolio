@@ -118,12 +118,9 @@ export default function FilmsSection() {
           "episode takes over the 14th day and it all spins out of control. " + 
 
           "\"My Sight is Lined with Visions\" is a tale about first loves, the joys of living with " +
-          "cats, a perspective on living with bipolar disorder, and the dreams that haunt you. " +
-          "Through a number of camera angles, the blur of autobiography and fiction creates a " + 
-          "fragmented yet intimate portrait of a girl’s mental landscape. Voiceovers in English " + 
-          "and broken Vietnamese attempt to capture the fluidity of memory, emotion, and imagination. " + 
-          "I write about my first love. I hope she writes back." + 
-          "Find contact at bottom to request password."}
+          "cats, a perspective on living with bipolar disorder, and dreams. " +
+          "I write about my first love. I hope she writes back. " + "\n" + 
+          "Find contact at bottom to request password."}}
         date={'December 2024'}
         length={'30m'}
         link={'https://player.vimeo.com/video/1047054886?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
@@ -186,15 +183,6 @@ export default function FilmsSection() {
         date={'October 2023'}
         length={'12m'}
         link={'https://player.vimeo.com/video/1006213867?h=a2a80c1073'} />
-
-      <FilmProject
-        im_path={'/film-stills/Growing-Up/growing-up-poster-pointed.png'}
-        title={'Growing Up'}
-        description={'A found footage film about growing up, using scenes from 23 movies.'}
-        date={'May 2022'}
-        length={'4m'}
-        link={'https://player.vimeo.com/video/717016230?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
-
     </div>
   )
 }
