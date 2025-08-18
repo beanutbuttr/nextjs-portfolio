@@ -155,7 +155,7 @@ export default function FilmsSection() {
       <FilmProject
         im_path={'/film-stills/Thunderstruck/thunderstruck-poster-pointed.png'}
         title={'Thunderstruck'}
-        description={'Flashing lights explode across an apartment as images of a woman in bed flicker in and out. A stop motion of light paintings and projections. Find contact at bottom to request password.'}
+        description={'Flashing lights explode across an apartment as images of a woman in bed flicker in and out. A stop motion of light paintings and projections. Official Selection: Free the Kitsch Athens Film Fest, Scream Queer Film Festival. Find contact at bottom to request password.'}
         date={'September 2023'}
         length={'4m'}
         link={'https://player.vimeo.com/video/868960183?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'} />
